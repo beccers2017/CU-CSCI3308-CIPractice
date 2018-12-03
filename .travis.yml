@@ -1,0 +1,9 @@
+install: make dep
+
+./configure && make test
+
+language: c
+
+compiler:
+  -clang
+  -gcc
